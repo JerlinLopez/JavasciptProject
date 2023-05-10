@@ -1,0 +1,85 @@
+#img-logo{
+  width: 60px;
+}
+#signup-box{
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 10px;
+  border: 1px solid;
+  border-color: rgb(230, 226, 226);
+  margin-top: 45px;
+}
+#heading-signup{
+  font-size: 28px;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
+margin-top: 50px;
+}
+#signup-input{
+  border: 2px solid;
+  border-color: rgb(230, 226, 226);
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+#heading-div{
+  padding-left: 40px;
+  margin-top: 20px;
+}
+#input-div{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#text-label{
+  font-weight: bold;
+  font-size: 14px;
+
+}
+#text-ques{
+  font-size: 14px;
+  margin-left: 145px;
+}
+#login-link{
+  text-decoration: none;
+  color: #04AA6D;
+}
+#show-text{
+  margin-left: 265px;
+}
+#list-dot{
+  color: #04AA6D;
+  font-size: 25px;
+}
+#list-text{
+  color: rgb(58, 56, 56);
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  line-height: 0
+
+}
+#list-div{
+  padding-left: 30px;
+}
+#checkbox-div{
+  margin-top: 10px;
+  margin-left: 40px;
+}
+#checkbox-text{
+  font-size: 15px;
+}
+#text-between-lines {
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+}
+
+#text-between-lines:before,
+#text-between-lines:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid #e6e1e1;
+  margin: auto;
+}
