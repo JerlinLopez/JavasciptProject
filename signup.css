@@ -1,5 +1,18 @@
 #img-logo{
-  width: 60px;
+  width: 52px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#icon-close{
+  font-size: xx-large;
+  padding-right: 20px;
+  color: rgb(114, 111, 111);
+}
+#button-close{
+  margin-top: 15px;
+  float: right;
+border: none;
+background-color: white;
 }
 #signup-box{
   background-color: rgb(255, 255, 255);
@@ -16,7 +29,8 @@
   font-family:Arial, Helvetica, sans-serif;
 margin-top: 50px;
 }
-#signup-input{
+#signup-input,
+#password-input{
   border: 2px solid;
   border-color: rgb(230, 226, 226);
   height: 50px;
@@ -24,6 +38,7 @@ margin-top: 50px;
   border-radius: 5px;
   margin-bottom: 10px;
 }
+
 #heading-div{
   padding-left: 40px;
   margin-top: 20px;
@@ -48,17 +63,43 @@ margin-top: 50px;
 #show-text{
   margin-left: 265px;
 }
+#show-button{
+  border: none;
+  background-color: white;
+  font-size: 13px; 
+  font-weight: bold;
+}
 #list-dot{
-  color: #04AA6D;
   font-size: 25px;
 }
-#list-text{
-  color: rgb(58, 56, 56);
+#list-text-lowercase,
+#list-text-uppercase,
+#list-text-number{
+  /* color: rgb(58, 56, 56); */
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   line-height: 0
 
+}
+.lowercasetext{
+  color: red;
+}
+.lowercaseLetter{
+  color: #04AA6D;
+}
+
+.uppercasetext{
+  color: red;
+}
+.uppercaseLetter{
+  color:#04AA6D ;
+}
+.numbertext{
+  color: red;
+}
+.number{
+  color: #04AA6D;
 }
 #list-div{
   padding-left: 30px;
@@ -82,4 +123,82 @@ margin-top: 50px;
   flex: 1 1;
   border-bottom: 2px solid #e6e1e1;
   margin: auto;
+}
+#line-div{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#button-signup{
+  border: none;
+  background-color: #04AA6D;
+  padding: 10px 130px 10px 150px;
+  border-radius: 25px;
+  color: white;
+  margin: 25px 40px 30px 40px;
+  font-size: 16px;
+}
+#button-signup:hover{
+  background-color: #068b5b;
+}
+#button-facebook{
+  border: none;
+  background-color: #1877f2;
+  color: white;
+  /* margin : 40px; */
+  margin-left: 40px;
+  margin-top: 10px;
+ padding: 10px 100px 10px 90px;
+ border-radius: 25px;
+}
+#button-google,
+#button-github{
+  border: 2px solid;
+  border-color: rgb(204, 200, 200);
+  background-color: white;
+  margin-left: 40px;
+  padding: 9px 100px 9px 100px;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+#text-last{
+  font-size: 12px;
+}
+#div-text{
+  padding-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+#text-link{
+  text-decoration: none;
+  color: rgb(41, 39, 39);
+  font-weight: bold;
+}
+#text-link:hover{
+  color: #04AA6D;
+}
+#help-btn-div{
+  float: right;
+}
+#button-help{
+  border: none;
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#last-text{
+  font-size: 12px;
+  margin-top: 8px;
+  color: rgb(153, 150, 150);
+}
+
+
+#validation-text{
+  font-size: 13px;
+  color: red;
+  margin-left: 40px;
 }

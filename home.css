@@ -13,6 +13,9 @@
   color: black;
   font-weight:500
 }
+#dropdownMenuLink:hover{
+  background-color: #04AA6D;
+}
 #button-certified{
   color: black;
   background-color: pink;
@@ -22,6 +25,9 @@
   float: right;
   margin-right: 15px;
 }
+#button-certified:hover{
+  background-color: rgb(228, 169, 179);
+}
 #button-create-website{
   color: black;
   background-color:rgb(243, 243, 162);
@@ -30,6 +36,9 @@
   padding: 9px 17px 9px 17px;
   float: right;
   margin-right: 15px;
+}
+#button-create-website:hover{
+  background-color: rgb(224, 224, 122);
 }
 #button-upgrade{
   color: rgb(255, 255, 255);
@@ -50,6 +59,9 @@
   border-radius: 20px;
   padding: 9px 17px 9px 17px;
 float: right;
+}
+#button-signup:hover{
+  background-color: #03925e;
 }
 #icon-top-div{
   float: right;
@@ -95,7 +107,9 @@ float: right;
   border-top-right-radius: 25px;
 border-bottom-right-radius: 25px;
 align-items: center;
-  
+}
+#input-search-button:hover{
+  background-color: #03925e;
 }
 #input-search{
   font-family:  sans-serif;;
@@ -108,6 +122,9 @@ border:0;
   color: white;
   font-size: 22px;
   font-weight: bold;
+}
+#link-text:hover{
+  color: rgb(221, 219, 219);
 }
 #div-a{
   margin-top: 35px;
